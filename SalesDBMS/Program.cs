@@ -27,13 +27,10 @@ public class SalesManager
     private List<Store> stores;
     private List<Product> products;
     private List<Sale> sales;
-    //private string storesFilePath = "C:/Users/Deniz/source/repos/invent_task_denizbatu/invent_task_denizbatu/stores.csv";
-    //private string productsFilePath = "C:/Users/Deniz/source/repos/invent_task_denizbatu/invent_task_denizbatu/products.csv";
-    //private string salesFilePath = "C:/Users/Deniz/source/repos/invent_task_denizbatu/invent_task_denizbatu/inventory-sales.csv";
 
-    private string storesFilePath = "stores.csv";
-    private string productsFilePath = "products.csv";
-    private string salesFilePath = "inventory-sales.csv";
+    private string storesFilePath = "Data/stores.csv";
+    private string productsFilePath = "Data/products.csv";
+    private string salesFilePath = "Data/inventory-sales.csv";
 
     public SalesManager()
     {
